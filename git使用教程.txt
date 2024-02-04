@@ -1,0 +1,33 @@
+1.https://gitee.com/ 注册账号
+
+2.新建仓库
+  【仓库名称】LeGO-LOAM_NOTED
+  【选择归属】，自动【生成路径】，网址 https://gitee.com/nuaa_lai/LeGO-LOAM_NOTED
+  【仓库介绍】
+  【是否开源】公开
+  【选择语言】C++  【添加 .gitignore】ROS  【添加开源许可证】MIT
+  其他默认
+  点击【创建】
+
+3.下载Git for Windows并安装
+  网址 https://gitforwindows.org/
+
+4.进入仓库页面，点击【克隆/下载】，然后点击【复制】，将https://gitee.com/nuaa_lai/LeGO-LOAM_NOTED.git复制到剪切板
+  右击选择Git Bash Here，输入
+  git clone https://gitee.com/nuaa_lai/LeGO-LOAM_NOTED.git
+  会生成一个文件夹，把要git上传的文件全部放到该文件夹下
+
+5.cd LeGO-LO_NOTED/
+
+6.git add -A
+
+7. git commit -m "first push"
+   双引号里面是自定义内容，通常是说明修改了的内容
+
+8.git push
+
+9.之后每次更改内容后需要上传同步时，只需要右击打开Git Bash Here，然后依次
+  git add -A
+  git commit -m "..."
+  git push
+  即可
